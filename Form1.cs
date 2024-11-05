@@ -37,22 +37,12 @@ namespace QuanLyNGK
         }
 
         private void txtUsername_TextChanged(object sender, EventArgs e)
-        {
-            if (txtUsername.Text == "EnterUsername")
-            {
-                txtUsername.Text = "";
-                txtUsername.ForeColor = System.Drawing.Color.Black;
-            }
+        {          
         }
 
         private void txtPassword_TextChanged(object sender, EventArgs e)
         {
-            if (txtPassword.Text == "EnterPassword")
-            {
-                txtPassword.Text = "";
-                txtPassword.ForeColor = System.Drawing.Color.Black;
-                txtPassword.PasswordChar = '*';
-            }
+            
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -81,8 +71,10 @@ namespace QuanLyNGK
             {
                 try
                 {
-                    SqlConnection connection = new SqlConnection("Data Source=LAPTOP-5I8I5M5T\\SQLEXPRESS;Initial Catalog=QLNGK;Integrated Security=True");
-                    SqlCommand cmd = new SqlCommand("select * from Account where username = @username and password = @password", connection);
+                   ketnoiSQL ketnoiSQL = new ketnoiSQL();
+                    
+                    ketnoiSQL.openConnect();
+                    SqlCommand cmd = new SqlCommand("select * from Account where username = @username and password = @password", ketnoiSQL.getConnection());
                     cmd.Parameters.AddWithValue("@username", txtUsername.Text);
                     cmd.Parameters.AddWithValue("@password", txtPassword.Text);
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
@@ -120,9 +112,6 @@ namespace QuanLyNGK
             if(e.KeyCode== Keys.Enter)
             {
                txtPassword.Focus();
-                txtPassword.Text = "";
-                txtPassword.ForeColor = System.Drawing.Color.Black;
-                txtPassword.PasswordChar = '*';
             }
         }
 

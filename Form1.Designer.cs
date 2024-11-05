@@ -81,7 +81,7 @@
             this.txtUsername.BackColor = System.Drawing.Color.Transparent;
             this.txtUsername.BorderRadius = 20;
             this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUsername.DefaultText = "EnterUsername";
+            this.txtUsername.DefaultText = "";
             this.txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -89,15 +89,18 @@
             this.txtUsername.FillColor = System.Drawing.Color.WhiteSmoke;
             this.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtUsername.ForeColor = System.Drawing.Color.Black;
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.Location = new System.Drawing.Point(49, 345);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
-            this.txtUsername.PlaceholderText = "";
+            this.txtUsername.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtUsername.PlaceholderText = "EnterUsername";
             this.txtUsername.SelectedText = "";
             this.txtUsername.Size = new System.Drawing.Size(350, 60);
             this.txtUsername.TabIndex = 3;
+            this.txtUsername.TextOffset = new System.Drawing.Point(10, 0);
             this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             this.txtUsername.Click += new System.EventHandler(this.txtUsername_TextChanged);
             this.txtUsername.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtkeydow);
@@ -120,7 +123,7 @@
             this.txtPassword.BackColor = System.Drawing.Color.Transparent;
             this.txtPassword.BorderRadius = 20;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPassword.DefaultText = "EnterPassword";
+            this.txtPassword.DefaultText = "";
             this.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
@@ -128,15 +131,18 @@
             this.txtPassword.FillColor = System.Drawing.Color.WhiteSmoke;
             this.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtPassword.ForeColor = System.Drawing.Color.Black;
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.Location = new System.Drawing.Point(49, 450);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '\0';
-            this.txtPassword.PlaceholderText = "";
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtPassword.PlaceholderText = "EnterPassword";
             this.txtPassword.SelectedText = "";
             this.txtPassword.Size = new System.Drawing.Size(350, 60);
             this.txtPassword.TabIndex = 5;
+            this.txtPassword.TextOffset = new System.Drawing.Point(10, 0);
             this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             this.txtPassword.Click += new System.EventHandler(this.txtPassword_TextChanged);
             this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtkey);
@@ -249,8 +255,8 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1298, 794);
             this.Controls.Add(this.guna2GradientPanel1);
             this.Controls.Add(this.guna2PictureBox1);
