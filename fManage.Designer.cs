@@ -92,6 +92,7 @@
             this.btnSupplier.Name = "btnSupplier";
             this.btnSupplier.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnSupplier.TextOffset = new System.Drawing.Point(10, 0);
+            this.btnSupplier.Click += new System.EventHandler(this.btnSupplier_Click);
             // 
             // guna2HtmlLabel1
             // 

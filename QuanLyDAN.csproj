@@ -67,6 +67,30 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNCCadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNCCadd.Designer.cs">
+      <DependentUpon>frmNCCadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNCCview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNCCview.Designer.cs">
+      <DependentUpon>frmNCCview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductAdd.Designer.cs">
+      <DependentUpon>frmProductAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductView.Designer.cs">
+      <DependentUpon>frmProductView.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmStaffAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +111,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNCCadd.resx">
+      <DependentUpon>frmNCCadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNCCview.resx">
+      <DependentUpon>frmNCCview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductAdd.resx">
+      <DependentUpon>frmProductAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductView.resx">
+      <DependentUpon>frmProductView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStaffAdd.resx">
       <DependentUpon>frmStaffAdd.cs</DependentUpon>

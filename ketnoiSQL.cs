@@ -181,6 +181,231 @@ namespace QuanLyNGK
             }
             return bang;
         }
+        public bool AddProduct(string maSP, string loaiSP, string tenSP, string nsx, string nhh, int gia, string maNCC, byte[] hinhAnh, int soLuong)
+        {
+            try
+            {
+                openConnect();
+                string sql = "INSERT INTO SanPham (maSP, loaiSP, tenSP, ngaySX, ngayHH, giaSP, maNCC, hinhAnh, soLuong) " +
+                             "VALUES (@maSP, @loaiSP, @tenSP, @ngaySX, @ngayHH, @giaSP, @maNCC, @hinhAnh, @soLuong)";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maSP", maSP);
+                    cmd.Parameters.AddWithValue("@loaiSP", loaiSP);
+                    cmd.Parameters.AddWithValue("@tenSP", tenSP);
+                    cmd.Parameters.AddWithValue("@ngaySX", nsx);
+                    cmd.Parameters.AddWithValue("@ngayHH", nhh);
+                    cmd.Parameters.AddWithValue("@giaSP", gia);
+                    cmd.Parameters.AddWithValue("@maNCC", maNCC);
+                    cmd.Parameters.AddWithValue("@hinhAnh", hinhAnh);
+                    cmd.Parameters.AddWithValue("@soLuong", soLuong);
+
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi thêm sản phẩm: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+
+
+        public bool UpdateProduct(string maSP, string loaiSP, string tenSP, string nsx, string nhh, int gia, string maNCC, byte[] hinhAnh, int soLuong)
+        {
+            try
+            {
+                openConnect();
+                string sql = "UPDATE SanPham SET loaiSP = @loaiSP, tenSP = @tenSP, ngaySX = @ngaySX, ngayHH = @ngayHH, giaSP = @giaSP, " +
+                             "maNCC = @maNCC, hinhAnh = @hinhAnh, soLuong = @soLuong WHERE maSP = @maSP";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maSP", maSP);
+                    cmd.Parameters.AddWithValue("@loaiSP", loaiSP);
+                    cmd.Parameters.AddWithValue("@tenSP", tenSP);
+                    cmd.Parameters.AddWithValue("@ngaySX", nsx);
+                    cmd.Parameters.AddWithValue("@ngayHH", nhh);
+                    cmd.Parameters.AddWithValue("@giaSP", gia);
+                    cmd.Parameters.AddWithValue("@maNCC", maNCC);
+                    cmd.Parameters.AddWithValue("@hinhAnh", hinhAnh);
+                    cmd.Parameters.AddWithValue("@soLuong", soLuong);
+
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi cập nhật sản phẩm: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+        public bool DeleteProduct(string maSP)
+        {
+            try
+            {
+                openConnect();
+                string sql = "DELETE FROM SanPham WHERE maSP = @maSP";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maSP", maSP);
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0; // Trả về true nếu xóa thành công
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi xóa sản phẩm: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+        public DataTable SeachProduct(string name)
+        {
+            DataTable bang = new DataTable();
+            try
+            {
+                openConnect();
+                string sql = "SELECT * FROM SanPham WHERE tenSP LIKE @name";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@name", "%" + name + "%");
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        bang.Load(reader);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi tìm kiếm nhân viên: " + ex.Message);
+            }
+            finally
+            {
+                closeConnect();
+            }
+            return bang;
+        }
+        public bool AddNCC(string maNCC, string tenNCC, string SDT, string diaChi)
+        {
+            try
+            {
+                openConnect();
+                string sql = "INSERT INTO NhaCungUng (maNCC, tenNCC, sdtNCC, diaChi) VALUES (@maNCC, @tenNCC, @sdtNCC, @diaChi)";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maNCC", maNCC);
+                    cmd.Parameters.AddWithValue("@tenNCC", tenNCC);
+                    cmd.Parameters.AddWithValue("@sdtNCC", SDT); 
+                    cmd.Parameters.AddWithValue("@diaChi", diaChi);
+
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi thêm NCC: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+
+        public bool UpdateNCC(string maNCC, string tenNCC, string SDT, string diaChi)
+        {
+            try
+            {
+                openConnect();
+                string sql = "UPDATE NhaCungUng SET tenNCC = @tenNCC, sdtNCC = @SDT, diaChi = @diaChi WHERE maNCC = @maNCC";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maNCC", maNCC);
+                    cmd.Parameters.AddWithValue("@tenNCC", tenNCC);
+                    cmd.Parameters.AddWithValue("@sdtNCC", SDT);
+                    cmd.Parameters.AddWithValue("@diaChi", diaChi);
+
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi cập nhật NCC: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+
+        // Xóa nhà cung cấp (NCC)
+        public bool DeleteNCC(string maNCC)
+        {
+            try
+            {
+                openConnect();
+                string sql = "DELETE FROM NhaCungUng WHERE maNCC = @maNCC";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maNCC", maNCC);
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi xóa NCC: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+
+        // Tìm kiếm nhà cung cấp (NCC)
+        public DataTable SearchNCC(string name)
+        {
+            DataTable bang = new DataTable();
+            try
+            {
+                openConnect();
+                string sql = "SELECT * FROM NhaCungUng WHERE tenNCC LIKE @name";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@name", "%" + name + "%");
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        bang.Load(reader);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi tìm kiếm NCC: " + ex.Message);
+            }
+            finally
+            {
+                closeConnect();
+            }
+            return bang;
+        }
 
 
     }

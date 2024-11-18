@@ -43,41 +43,60 @@ namespace QuanLyNGK
         ketnoiSQL db = new ketnoiSQL();
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            if (guna2Button1.Text == "Add")
-            {
-                if (textbox1.Text != "" && txthoten.Text != "" && txtAge.Text != "" && cbGender.SelectedIndex != -1 && txtPhone.Text != "" && txtAddr.Text != "")
+            
+                if (guna2Button1.Text == "Add")
                 {
-                    if (db.CheckMaNVExists(textbox1.Text))
+                    if (textbox1.Text != "" && txthoten.Text != "" && txtAge.Text != "" && cbGender.SelectedIndex != -1 && txtPhone.Text != "" && txtAddr.Text != "")
                     {
-                        MessageBox.Show("Mã nhân viên đã tồn tại. Vui lòng nhập mã khác.");
-                        return;
+                     
+                        if (db.CheckMaNVExists(textbox1.Text))
+                        {
+                            MessageBox.Show("Mã nhân viên đã tồn tại. Vui lòng nhập mã khác.");
+                            return;
+                        }
+
+                      
+                        if (!int.TryParse(txtAge.Text, out int age))
+                        {
+                            MessageBox.Show("Tuổi phải là một số nguyên hợp lệ!");
+                            return;
+                        }
+
+                        bool success = db.AddNhanVien(textbox1.Text, txthoten.Text, age, cbGender.SelectedItem.ToString(), txtPhone.Text, txtAddr.Text);
+                        if (success)
+                        {
+                            MessageBox.Show("Đã thêm dữ liệu thành công!");
+                        }
                     }
-                    bool success = db.AddNhanVien(textbox1.Text, txthoten.Text, int.Parse(txtAge.Text), cbGender.SelectedItem.ToString(), txtPhone.Text, txtAddr.Text);
-                    if (success)
+                    else
                     {
-                        MessageBox.Show("Đã thêm dữ liệu thành công!");
+                        MessageBox.Show("Hãy nhập đủ thông tin!!!");
                     }
                 }
-                else
+                else if (guna2Button1.Text == "Update")
                 {
-                    MessageBox.Show("Hãy nhập đủ thông tin!!!");
-                }
-            }
-            else if (guna2Button1.Text == "Update")
-            {
-                if (textbox1.Text != "" && txthoten.Text != "" && txtAge.Text != "" && cbGender.SelectedIndex != -1 && txtPhone.Text != "" && txtAddr.Text != "")
-                {
-                    bool success = db.UpdateNhanVien(textbox1.Text, txthoten.Text, int.Parse(txtAge.Text), cbGender.SelectedItem.ToString(), txtPhone.Text, txtAddr.Text);
-                    if (success)
+                    if (textbox1.Text != "" && txthoten.Text != "" && txtAge.Text != "" && cbGender.SelectedIndex != -1 && txtPhone.Text != "" && txtAddr.Text != "")
                     {
-                        MessageBox.Show("Đã cập nhật dữ liệu thành công!");
+                        if (!int.TryParse(txtAge.Text, out int age))
+                        {
+                            MessageBox.Show("Tuổi phải là một số nguyên hợp lệ!");
+                            return;
+                        }
+
+                      
+                        bool success = db.UpdateNhanVien(textbox1.Text, txthoten.Text, age, cbGender.SelectedItem.ToString(), txtPhone.Text, txtAddr.Text);
+                        if (success)
+                        {
+                            MessageBox.Show("Đã cập nhật dữ liệu thành công!");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Hãy nhập đủ thông tin!!!");
                     }
                 }
-                else
-                {
-                    MessageBox.Show("Hãy nhập đủ thông tin!!!");
-                }
-            }
+            
+
         }
     }
 }

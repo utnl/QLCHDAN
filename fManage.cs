@@ -52,7 +52,7 @@ namespace QuanLyNGK
 
         private void btnProduct_Click_1(object sender, EventArgs e)
         {
-
+            AddControls(new frmProductView());
         }
 
         private void PanelMenu_VisibleChanged(object sender, EventArgs e)
@@ -82,6 +82,11 @@ namespace QuanLyNGK
         private void btnStaff_Click(object sender, EventArgs e)
         {
             AddControls(new frmStaffview());
+        }
+
+        private void btnSupplier_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmNCCview());
         }
     }
 }
