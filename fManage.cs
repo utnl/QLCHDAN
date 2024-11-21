@@ -88,5 +88,18 @@ namespace QuanLyNGK
         {
             AddControls(new frmNCCview());
         }
+
+        private void btnPOS_Click(object sender, EventArgs e)
+        {
+            PanelReport.Visible = false;
+            PanelMenu.Visible = false;
+            this.WindowState = FormWindowState.Maximized;
+            AddControls(new frmPOSview());
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmCustomerView());
+        }
     }
 }

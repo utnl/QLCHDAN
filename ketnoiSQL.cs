@@ -407,6 +407,115 @@ namespace QuanLyNGK
             return bang;
         }
 
+        public bool AddKhachHang(string maKH, string tenKH, string gioiTinh, string sdt, string diaChi, int solanmuahang, string kieuKH)
+        {
+            try
+            {
+                openConnect();
+                string sql = "INSERT INTO KhachHang (maKH, tenKH, gioiTinh, sdt, diaChi, solanmuahang, kieuKH) VALUES (@maKH, @tenKH, @gioiTinh, @sdt, @diaChi, @solanmuahang, @kieuKH)";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maKH", maKH);
+                    cmd.Parameters.AddWithValue("@tenKH", tenKH);
+                    cmd.Parameters.AddWithValue("@gioiTinh", gioiTinh);
+                    cmd.Parameters.AddWithValue("@sdt", sdt);
+                    cmd.Parameters.AddWithValue("@diaChi", diaChi);
+                    cmd.Parameters.AddWithValue("@solanmuahang", solanmuahang);
+                    cmd.Parameters.AddWithValue("@kieuKH", kieuKH);
+
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi thêm khách hàng: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+        public bool UpdateKhachHang(string maKH, string tenKH, string gioiTinh, string sdt, string diaChi, int solanmuahang, string kieuKH)
+        {
+            try
+            {
+                openConnect();
+                string sql = "UPDATE KhachHang SET tenKH = @tenKH, gioiTinh = @gioiTinh, sdt = @sdt, diaChi = @diaChi, solanmuahang = @solanmuahang, kieuKH = @kieuKH WHERE maKH = @maKH";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maKH", maKH);
+                    cmd.Parameters.AddWithValue("@tenKH", tenKH);
+                    cmd.Parameters.AddWithValue("@gioiTinh", gioiTinh);
+                    cmd.Parameters.AddWithValue("@sdt", sdt);
+                    cmd.Parameters.AddWithValue("@diaChi", diaChi);
+                    cmd.Parameters.AddWithValue("@solanmuahang", solanmuahang);
+                    cmd.Parameters.AddWithValue("@kieuKH", kieuKH);
+
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi cập nhật khách hàng: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+        public bool DeleteKhachHang(string maKH)
+        {
+            try
+            {
+                openConnect();
+                string sql = "DELETE FROM KhachHang WHERE maKH = @maKH";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@maKH", maKH);
+                    int result = cmd.ExecuteNonQuery();
+                    return result > 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi xóa khách hàng: " + ex.Message);
+                return false;
+            }
+            finally
+            {
+                closeConnect();
+            }
+        }
+        public DataTable SearchKhachHangByName(string name)
+        {
+            DataTable bang = new DataTable();
+            try
+            {
+                openConnect();
+                string sql = "SELECT * FROM KhachHang WHERE tenKH LIKE @name";
+                using (SqlCommand cmd = new SqlCommand(sql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@name", "%" + name + "%");
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        bang.Load(reader);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Có lỗi xảy ra khi tìm kiếm khách hàng: " + ex.Message);
+            }
+            finally
+            {
+                closeConnect();
+            }
+            return bang;
+        }
 
     }
 }

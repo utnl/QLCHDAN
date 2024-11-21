@@ -17,3 +17,7 @@ C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyN
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmProductAdd.resources
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmNCCview.resources
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmNCCadd.resources
+C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmPOSview.resources
+C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.UcProduct.resources
+C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmCustomerAdd.resources
+C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmCustomerView.resources

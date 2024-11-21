@@ -162,6 +162,7 @@
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCustomer.TextOffset = new System.Drawing.Point(10, 0);
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // PanelMenu
             // 
@@ -376,6 +377,7 @@
             this.btnPOS.ImageSize = new System.Drawing.Size(45, 45);
             this.btnPOS.Name = "btnPOS";
             this.btnPOS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnPOS.Click += new System.EventHandler(this.btnPOS_Click);
             // 
             // btnCategories
             // 
