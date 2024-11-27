@@ -101,6 +101,7 @@ namespace QuanLyNGK
         {
             AddControls(new frmCustomerView());
         }
+<<<<<<< HEAD
 
         private void btnBill_Click(object sender, EventArgs e)
         {
@@ -111,5 +112,7 @@ namespace QuanLyNGK
         {
             AddControls(new frmRPdoanhthu());
         }
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
     }
 }

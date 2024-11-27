@@ -21,6 +21,7 @@ C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyN
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.UcProduct.resources
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmCustomerAdd.resources
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmCustomerView.resources
+<<<<<<< HEAD
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmHoaDon.resources
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\obj\Debug\QuanLyNGK.frmRPdoanhthu.resources
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\bin\Debug\SqlServerTypes\x64\msvcr120.dll
@@ -80,3 +81,5 @@ C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\bin\Debug\ru\Micr
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 C:\Users\lengu\source\repos\winform\QuanLyNGK - ngon - testsql\bin\Debug\RPdoanhthu.rdlc
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118

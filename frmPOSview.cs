@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+<<<<<<< HEAD
 using System.Data.SqlClient;
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -63,7 +66,10 @@ namespace QuanLyNGK
                 // Thêm sản phẩm vào ProductPanel
                 this.ProductPanel.Controls.Add(ucProduct);
             }
+<<<<<<< HEAD
             db.closeConnect();
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
 
         }
         private void UcProduct_onSelect(object sender, EventArgs e)
@@ -155,7 +161,11 @@ namespace QuanLyNGK
                 }
             }
         }
+<<<<<<< HEAD
      
+=======
+
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
             foreach (var item in ProductPanel.Controls)
@@ -164,6 +174,7 @@ namespace QuanLyNGK
                 pro.Visible = pro.PName.ToLower().Contains(txtSearch.Text.Trim().ToLower());
             }
         }
+<<<<<<< HEAD
        
         private void guna2Button2_Click(object sender, EventArgs e)//btnPay
         {
@@ -325,5 +336,7 @@ namespace QuanLyNGK
             txtKh.Text = "";
             txtTrangthai.Text = "";
         }
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
     }
 }

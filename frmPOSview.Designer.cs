@@ -28,15 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+=======
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPOSview));
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+<<<<<<< HEAD
             this.txtKh = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
+=======
+            this.txtMaKH = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbPay = new Guna.UI2.WinForms.Guna2ComboBox();
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
@@ -54,7 +66,10 @@
             this.ProductPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label5 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
             this.txtTrangthai = new Guna.UI2.WinForms.Guna2TextBox();
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             this.guna2ShadowPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -91,9 +106,15 @@
             // 
             this.guna2Panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Panel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+<<<<<<< HEAD
             this.guna2Panel2.Controls.Add(this.txtTrangthai);
             this.guna2Panel2.Controls.Add(this.txtKh);
             this.guna2Panel2.Controls.Add(this.label4);
+=======
+            this.guna2Panel2.Controls.Add(this.txtMaKH);
+            this.guna2Panel2.Controls.Add(this.label4);
+            this.guna2Panel2.Controls.Add(this.cbPay);
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             this.guna2Panel2.Controls.Add(this.label3);
             this.guna2Panel2.Controls.Add(this.label2);
             this.guna2Panel2.Controls.Add(this.guna2Separator1);
@@ -105,6 +126,7 @@
             this.guna2Panel2.Size = new System.Drawing.Size(554, 348);
             this.guna2Panel2.TabIndex = 14;
             // 
+<<<<<<< HEAD
             // txtKh
             // 
             this.txtKh.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -124,6 +146,27 @@
             this.txtKh.SelectedText = "";
             this.txtKh.Size = new System.Drawing.Size(231, 40);
             this.txtKh.TabIndex = 20;
+=======
+            // txtMaKH
+            // 
+            this.txtMaKH.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtMaKH.DefaultText = "";
+            this.txtMaKH.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtMaKH.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtMaKH.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMaKH.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtMaKH.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMaKH.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtMaKH.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtMaKH.Location = new System.Drawing.Point(319, 71);
+            this.txtMaKH.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtMaKH.Name = "txtMaKH";
+            this.txtMaKH.PasswordChar = '\0';
+            this.txtMaKH.PlaceholderText = "";
+            this.txtMaKH.SelectedText = "";
+            this.txtMaKH.Size = new System.Drawing.Size(231, 40);
+            this.txtMaKH.TabIndex = 20;
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             // 
             // label4
             // 
@@ -136,6 +179,28 @@
             this.label4.Text = "Customer";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+<<<<<<< HEAD
+=======
+            // cbPay
+            // 
+            this.cbPay.BackColor = System.Drawing.Color.Transparent;
+            this.cbPay.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbPay.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbPay.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbPay.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbPay.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbPay.ForeColor = System.Drawing.Color.Black;
+            this.cbPay.ItemHeight = 30;
+            this.cbPay.Items.AddRange(new object[] {
+            "Đã thanh toán",
+            "Chưa thanh toán"});
+            this.cbPay.Location = new System.Drawing.Point(343, 125);
+            this.cbPay.Name = "cbPay";
+            this.cbPay.Size = new System.Drawing.Size(207, 36);
+            this.cbPay.StartIndex = 0;
+            this.cbPay.TabIndex = 18;
+            // 
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -180,7 +245,10 @@
             this.guna2Button2.Size = new System.Drawing.Size(274, 81);
             this.guna2Button2.TabIndex = 5;
             this.guna2Button2.Text = "Pay";
+<<<<<<< HEAD
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             // 
             // lblTotal
             // 
@@ -220,7 +288,10 @@
             this.guna2Button1.Size = new System.Drawing.Size(107, 41);
             this.guna2Button1.TabIndex = 13;
             this.guna2Button1.Text = "Clear All";
+<<<<<<< HEAD
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             // 
             // guna2DataGridView2
             // 
@@ -228,6 +299,7 @@
             this.guna2DataGridView2.AllowUserToDeleteRows = false;
             this.guna2DataGridView2.AllowUserToResizeColumns = false;
             this.guna2DataGridView2.AllowUserToResizeRows = false;
+<<<<<<< HEAD
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.guna2DataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -241,6 +313,21 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+=======
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.guna2DataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             this.guna2DataGridView2.ColumnHeadersHeight = 65;
             this.guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -249,6 +336,7 @@
             this.price,
             this.amount});
             this.guna2DataGridView2.Cursor = System.Windows.Forms.Cursors.Default;
+<<<<<<< HEAD
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -257,6 +345,16 @@
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle6;
+=======
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             this.guna2DataGridView2.GridColor = System.Drawing.Color.WhiteSmoke;
             this.guna2DataGridView2.Location = new System.Drawing.Point(1, 58);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
@@ -390,6 +488,7 @@
             this.label5.Text = "Lựa chọn";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+<<<<<<< HEAD
             // txtTrangthai
             // 
             this.txtTrangthai.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -410,6 +509,8 @@
             this.txtTrangthai.Size = new System.Drawing.Size(231, 40);
             this.txtTrangthai.TabIndex = 21;
             // 
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
             // frmPOSview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -437,8 +538,14 @@
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
+<<<<<<< HEAD
         private Guna.UI2.WinForms.Guna2TextBox txtKh;
         private System.Windows.Forms.Label label4;
+=======
+        private Guna.UI2.WinForms.Guna2TextBox txtMaKH;
+        private System.Windows.Forms.Label label4;
+        private Guna.UI2.WinForms.Guna2ComboBox cbPay;
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
@@ -456,6 +563,9 @@
         private System.Windows.Forms.FlowLayoutPanel ProductPanel;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private System.Windows.Forms.Label label5;
+<<<<<<< HEAD
         private Guna.UI2.WinForms.Guna2TextBox txtTrangthai;
+=======
+>>>>>>> 40d1565d4134c341f67d6fb65bf5038f23332118
     }
 }
