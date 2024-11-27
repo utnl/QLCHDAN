@@ -66,7 +66,7 @@ namespace QuanLyNGK
             else
             {
               
-                btnPOS.Location = new Point(3, 650); 
+                btnPOS.Location = new Point(3, 700); 
                 btnStatistics.Location = new Point(0, btnPOS.Location.Y + btnPOS.Height + 10);
             }
         }
@@ -87,6 +87,29 @@ namespace QuanLyNGK
         private void btnSupplier_Click(object sender, EventArgs e)
         {
             AddControls(new frmNCCview());
+        }
+
+        private void btnPOS_Click(object sender, EventArgs e)
+        {
+            PanelReport.Visible = false;
+            PanelMenu.Visible = false;
+            this.WindowState = FormWindowState.Maximized;
+            AddControls(new frmPOSview());
+        }
+
+        private void btnCustomer_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmCustomerView());
+        }
+
+        private void btnBill_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmHoaDon());
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmRPdoanhthu());
         }
     }
 }

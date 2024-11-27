@@ -40,12 +40,11 @@
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnCustomer = new Guna.UI2.WinForms.Guna2Button();
             this.PanelMenu = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnBill = new Guna.UI2.WinForms.Guna2Button();
             this.btnStaff = new Guna.UI2.WinForms.Guna2Button();
             this.btnProduct = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.PanelReport = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.btnBill = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.CenterPanel = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -162,17 +161,44 @@
             this.btnCustomer.Name = "btnCustomer";
             this.btnCustomer.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCustomer.TextOffset = new System.Drawing.Point(10, 0);
+            this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
             // PanelMenu
             // 
             this.PanelMenu.BackColor = System.Drawing.Color.Transparent;
             this.PanelMenu.Controls.Add(this.btnSupplier);
+            this.PanelMenu.Controls.Add(this.btnBill);
             this.PanelMenu.Controls.Add(this.btnCustomer);
             this.PanelMenu.Controls.Add(this.btnStaff);
             this.PanelMenu.Controls.Add(this.btnProduct);
             resources.ApplyResources(this.PanelMenu, "PanelMenu");
             this.PanelMenu.Name = "PanelMenu";
             this.PanelMenu.VisibleChanged += new System.EventHandler(this.PanelMenu_VisibleChanged);
+            // 
+            // btnBill
+            // 
+            this.btnBill.BackColor = System.Drawing.Color.Transparent;
+            this.btnBill.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnBill.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnBill.CustomizableEdges.BottomRight = false;
+            this.btnBill.CustomizableEdges.TopRight = false;
+            this.btnBill.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBill.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBill.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBill.FillColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnBill, "btnBill");
+            this.btnBill.ForeColor = System.Drawing.Color.Teal;
+            this.btnBill.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnBill.HoverState.FillColor = System.Drawing.SystemColors.HighlightText;
+            this.btnBill.Image = ((System.Drawing.Image)(resources.GetObject("btnBill.Image")));
+            this.btnBill.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBill.ImageOffset = new System.Drawing.Point(10, 0);
+            this.btnBill.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnBill.Name = "btnBill";
+            this.btnBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBill.TextOffset = new System.Drawing.Point(10, 0);
+            this.btnBill.Click += new System.EventHandler(this.btnBill_Click);
             // 
             // btnStaff
             // 
@@ -236,59 +262,9 @@
             // PanelReport
             // 
             this.PanelReport.BackColor = System.Drawing.Color.Transparent;
-            this.PanelReport.Controls.Add(this.guna2Button3);
-            this.PanelReport.Controls.Add(this.btnBill);
             this.PanelReport.Controls.Add(this.guna2Button2);
             resources.ApplyResources(this.PanelReport, "PanelReport");
             this.PanelReport.Name = "PanelReport";
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.guna2Button3.CustomizableEdges.BottomRight = false;
-            this.guna2Button3.CustomizableEdges.TopRight = false;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.guna2Button3, "guna2Button3");
-            this.guna2Button3.ForeColor = System.Drawing.Color.Teal;
-            this.guna2Button3.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.guna2Button3.HoverState.FillColor = System.Drawing.SystemColors.HighlightText;
-            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button3.ImageOffset = new System.Drawing.Point(10, 0);
-            this.guna2Button3.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button3.TextOffset = new System.Drawing.Point(10, 0);
-            // 
-            // btnBill
-            // 
-            this.btnBill.BackColor = System.Drawing.Color.Transparent;
-            this.btnBill.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnBill.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btnBill.CustomizableEdges.BottomRight = false;
-            this.btnBill.CustomizableEdges.TopRight = false;
-            this.btnBill.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnBill.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnBill.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnBill.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnBill.FillColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.btnBill, "btnBill");
-            this.btnBill.ForeColor = System.Drawing.Color.Teal;
-            this.btnBill.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnBill.HoverState.FillColor = System.Drawing.SystemColors.HighlightText;
-            this.btnBill.Image = ((System.Drawing.Image)(resources.GetObject("btnBill.Image")));
-            this.btnBill.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBill.ImageOffset = new System.Drawing.Point(10, 0);
-            this.btnBill.ImageSize = new System.Drawing.Size(40, 40);
-            this.btnBill.Name = "btnBill";
-            this.btnBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.btnBill.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // guna2Button2
             // 
@@ -313,6 +289,7 @@
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.TextOffset = new System.Drawing.Point(10, 0);
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2PictureBox2
             // 
@@ -376,6 +353,7 @@
             this.btnPOS.ImageSize = new System.Drawing.Size(45, 45);
             this.btnPOS.Name = "btnPOS";
             this.btnPOS.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnPOS.Click += new System.EventHandler(this.btnPOS_Click);
             // 
             // btnCategories
             // 
@@ -460,7 +438,6 @@
         private Guna.UI2.WinForms.Guna2Button btnProduct;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2Panel PanelReport;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button btnBill;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;

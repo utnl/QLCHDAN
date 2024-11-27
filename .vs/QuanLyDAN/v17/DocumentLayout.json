@@ -3,7 +3,103 @@
   "WorkspaceRootPath": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|c:\\users\\lengu\\source\\repos\\winform\\quanlyngk - ngon - testsql\\frmnccview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyNGK.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyNGK.csproj|solutionrelative:view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|c:\\users\\lengu\\source\\repos\\winform\\quanlyngk - ngon - testsql\\rpdoanhthu.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:rpdoanhthu.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmrpdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmrpdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmrpdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmrpdoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmrpdoanhthu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmrpdoanhthu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\doanhthurp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:doanhthurp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\qldan-dt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:qldan-dt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\ketnoisql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:ketnoisql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmposview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmposview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmposview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmposview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmcustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmcustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmproductview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmproductview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmcustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmcustomerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmcustomeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmcustomeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmcustomeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmcustomeradd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:ucproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmnccview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmnccview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,28 +107,16 @@
       "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmproductview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmproductview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmproductview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|c:\\users\\lengu\\source\\repos\\winform\\quanlyngk - ngon - testsql\\frmnccview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmnccview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmnccview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|c:\\users\\lengu\\source\\repos\\winform\\quanlyngk - ngon - testsql\\frmnccadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmnccadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmnccadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|c:\\users\\lengu\\source\\repos\\winform\\quanlyngk - ngon - testsql\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|c:\\users\\lengu\\source\\repos\\winform\\quanlyngk - ngon - testsql\\frmnccadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmnccadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmnccadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\ketnoisql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:ketnoisql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmstaffadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,32 +127,12 @@
       "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmstaffadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:frmproductadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|solutionrelative:fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyNGK.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyNGK.csproj|solutionrelative:fmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyNGK.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyNGK.csproj|solutionrelative:view\\frmstaffview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2549CE20-478E-4BCB-852A-7EF475B1097A}|QuanLyDAN.csproj|C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -98,11 +162,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "fManage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fManage.cs",
               "RelativeDocumentMoniker": "fManage.cs",
@@ -115,7 +179,196 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "frmHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "frmHoaDon.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmHoaDon.cs",
+              "RelativeToolTip": "frmHoaDon.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:05:56.206Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmRPdoanhthu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmRPdoanhthu.Designer.cs",
+              "RelativeDocumentMoniker": "frmRPdoanhthu.Designer.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmRPdoanhthu.Designer.cs",
+              "RelativeToolTip": "frmRPdoanhthu.Designer.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAArwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:54:42.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoanhThuRP.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\DoanhThuRP.cs",
+              "RelativeDocumentMoniker": "DoanhThuRP.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\DoanhThuRP.cs",
+              "RelativeToolTip": "DoanhThuRP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:10:22.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmRPdoanhthu.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmRPdoanhthu.cs",
+              "RelativeDocumentMoniker": "frmRPdoanhthu.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmRPdoanhthu.cs",
+              "RelativeToolTip": "frmRPdoanhthu.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAArwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:03:14.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QLDAN-DT.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\QLDAN-DT.cs",
+              "RelativeDocumentMoniker": "QLDAN-DT.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\QLDAN-DT.cs",
+              "RelativeToolTip": "QLDAN-DT.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:08:37.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RPdoanhthu.rdlc [Design]",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\RPdoanhthu.rdlc",
+              "RelativeDocumentMoniker": "RPdoanhthu.rdlc",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\RPdoanhthu.rdlc [Design]",
+              "RelativeToolTip": "RPdoanhthu.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-26T17:04:29.022Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmRPdoanhthu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmRPdoanhthu.cs",
+              "RelativeDocumentMoniker": "frmRPdoanhthu.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmRPdoanhthu.cs [Design]",
+              "RelativeToolTip": "frmRPdoanhthu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:26:33.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmHoaDon.cs",
+              "RelativeDocumentMoniker": "frmHoaDon.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmHoaDon.cs [Design]",
+              "RelativeToolTip": "frmHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:05:04.728Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmPOSview.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmPOSview.cs",
+              "RelativeDocumentMoniker": "frmPOSview.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmPOSview.cs [Design]",
+              "RelativeToolTip": "frmPOSview.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T06:49:26.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmCustomerView.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmCustomerView.cs",
+              "RelativeDocumentMoniker": "frmCustomerView.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmCustomerView.cs",
+              "RelativeToolTip": "frmCustomerView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:52:23.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmCustomerAdd.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmCustomerAdd.cs",
+              "RelativeDocumentMoniker": "frmCustomerAdd.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmCustomerAdd.cs",
+              "RelativeToolTip": "frmCustomerAdd.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwFMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:49:08.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmCustomerAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmCustomerAdd.cs",
+              "RelativeDocumentMoniker": "frmCustomerAdd.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmCustomerAdd.cs [Design]",
+              "RelativeToolTip": "frmCustomerAdd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:47:43.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmCustomerView.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmCustomerView.cs",
+              "RelativeDocumentMoniker": "frmCustomerView.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmCustomerView.cs [Design]",
+              "RelativeToolTip": "frmCustomerView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T07:42:58.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UcProduct.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\UcProduct.cs",
+              "RelativeDocumentMoniker": "UcProduct.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\UcProduct.cs",
+              "RelativeToolTip": "UcProduct.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T06:59:48.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmPOSview.cs",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmPOSview.cs",
+              "RelativeDocumentMoniker": "frmPOSview.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmPOSview.cs",
+              "RelativeToolTip": "frmPOSview.cs",
+              "ViewState": "AgIAAMQAAAAAAAAAAAAAAM0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T06:52:51.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UcProduct.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\UcProduct.cs",
+              "RelativeDocumentMoniker": "UcProduct.cs",
+              "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\UcProduct.cs [Design]",
+              "RelativeToolTip": "UcProduct.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T06:46:55.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "frmNCCadd.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmNCCadd.cs",
               "RelativeDocumentMoniker": "frmNCCadd.cs",
@@ -123,36 +376,33 @@
               "RelativeToolTip": "frmNCCadd.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAuwE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:48:00.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T00:48:00.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "frmNCCadd.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmNCCadd.cs",
               "RelativeDocumentMoniker": "frmNCCadd.cs",
               "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmNCCadd.cs [Design]",
               "RelativeToolTip": "frmNCCadd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:38:40.881Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-18T00:38:40.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
               "Title": "frmProductView.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmProductView.cs",
               "RelativeDocumentMoniker": "frmProductView.cs",
               "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmProductView.cs [Design]",
               "RelativeToolTip": "frmProductView.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T02:59:18.623Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-15T02:59:18.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "frmProductView.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmProductView.cs",
               "RelativeDocumentMoniker": "frmProductView.cs",
@@ -160,12 +410,11 @@
               "RelativeToolTip": "frmProductView.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAQwGQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T03:05:13.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T03:05:13.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "frmStaffview.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\View\\frmStaffview.cs",
               "RelativeDocumentMoniker": "View\\frmStaffview.cs",
@@ -177,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 31,
               "Title": "frmStaffview.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\View\\frmStaffview.cs",
               "RelativeDocumentMoniker": "View\\frmStaffview.cs",
@@ -190,20 +439,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "ketnoiSQL.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\ketnoiSQL.cs",
               "RelativeDocumentMoniker": "ketnoiSQL.cs",
               "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\ketnoiSQL.cs",
               "RelativeToolTip": "ketnoiSQL.cs",
-              "ViewState": "AgIAAHcBAAAAAAAAAAAAwDYBAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T02:04:15.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T02:04:15.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "fManage.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fManage.cs",
               "RelativeDocumentMoniker": "fManage.cs",
@@ -216,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 23,
               "Title": "frmProductAdd.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmProductAdd.cs",
               "RelativeDocumentMoniker": "frmProductAdd.cs",
@@ -224,49 +472,45 @@
               "RelativeToolTip": "frmProductAdd.cs",
               "ViewState": "AgIAAGwAAAAAAAAAAAAUwF4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T03:20:17.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T03:20:17.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 24,
               "Title": "frmNCCview.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmNCCview.cs",
               "RelativeDocumentMoniker": "frmNCCview.cs",
               "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmNCCview.cs",
               "RelativeToolTip": "frmNCCview.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwFEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:30:54.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T00:30:54.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "frmNCCview.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmNCCview.cs",
               "RelativeDocumentMoniker": "frmNCCview.cs",
               "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmNCCview.cs [Design]",
               "RelativeToolTip": "frmNCCview.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T00:29:32.417Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-18T00:29:32.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "frmProductAdd.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmProductAdd.cs",
               "RelativeDocumentMoniker": "frmProductAdd.cs",
               "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmProductAdd.cs [Design]",
               "RelativeToolTip": "frmProductAdd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T03:13:52.174Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-15T03:13:52.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "frmStaffAdd.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmStaffAdd.cs",
               "RelativeDocumentMoniker": "frmStaffAdd.cs",
@@ -274,12 +518,11 @@
               "RelativeToolTip": "frmStaffAdd.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAswFUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T05:53:31.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T05:53:31.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "frmStaffview.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\View\\frmStaffview.cs",
               "RelativeDocumentMoniker": "View\\frmStaffview.cs",
@@ -290,19 +533,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "frmStaffAdd.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmStaffAdd.cs",
               "RelativeDocumentMoniker": "frmStaffAdd.cs",
               "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\frmStaffAdd.cs [Design]",
               "RelativeToolTip": "frmStaffAdd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T02:41:30.071Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-03T02:41:30.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -313,19 +555,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T02:02:10.733Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-03T02:02:10.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": "frmStaffview.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\View\\frmStaffview.cs",
               "RelativeDocumentMoniker": "View\\frmStaffview.cs",
@@ -337,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -349,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "fManage.cs",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fManage.cs",
               "RelativeDocumentMoniker": "fManage.cs",
@@ -361,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 32,
               "Title": "fManage.cs [Design]",
               "DocumentMoniker": "C:\\Users\\lengu\\source\\repos\\winform\\QuanLyNGK - ngon - testsql\\fManage.cs",
               "RelativeDocumentMoniker": "fManage.cs",
